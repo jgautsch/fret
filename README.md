@@ -1,5 +1,12 @@
 # Fret
 
+# Basic Usage:
+
+```elixir
+results = Fret.forecast()
+vega = results |> Fret.plot_results()
+```
+
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
